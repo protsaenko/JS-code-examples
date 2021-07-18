@@ -4,10 +4,11 @@
 // which is the difference between two consecutive perfect squares,
 // and return these squares as a string in the format "bigger-smaller"
 
+//EXAMPLE
 // 5  -->  "9-4"
 // 7  -->  "16-9"
 //9  -->  "25-16"
-
+//------------------------------------------------------------------------
 
 function SurroundingSquares(x) {
     if (x % 2 === 1) {
